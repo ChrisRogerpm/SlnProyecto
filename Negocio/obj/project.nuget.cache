@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NM+6d1GmxXoBpqFpAOqK1kyGJOyLy5K2vEyF1hgSfrbp3/8DK/x8wFIqeqVoJdXcsyad8m8bf/yUs8b5ta0YBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Christian\\source\\repos\\SlnEccommerce\\Negocio\\Negocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Christian\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Christian\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
