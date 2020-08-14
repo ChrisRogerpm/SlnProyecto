@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "CategoriaRegistrar";
+}
+
+
+@section header{
+    <div class="page-header page-header-light">
+        <div class="page-header-content header-elements-md-inline">
+            <div class="page-title d-flex">
+                <h4>
+                    <span class="font-weight-semibold"> REGISTRAR CATEGORIA</span>
+                </h4>
+                <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+            </div>
+            <div class="header-elements d-none">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-link btn-float text-default btnVolver">
+                        <i class="icon-arrow-left7 text-slate-700"></i> <span>VOLVER</span>
+                    </button>
+                    <button type="button" class="btn btn-link btn-float text-default btnRecargar">
+                        <i class="icon-reload-alt text-slate-700"></i> <span>RECARGAR</span>
+                    </button>
+                    <button type="button" class="btn btn-link btn-float text-default btnGuardar">
+                        <i class="icon-floppy-disk text-slate-700"></i> <span>GUARDAR</span>
+                    </button>
+                    <button type="button" class="btn btn-link btn-float text-default btnCancelar">
+                        <i class="icon-cancel-square2 text-slate-700"></i> <span>CANCELAR</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+            <div class="d-flex">
+                <div class="breadcrumb">
+                    <a href="#" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> INICIO</a>
+                    <a href="#" class="breadcrumb-item"> CATEGORIA</a>
+                    <a href="#" class="breadcrumb-item"> REGISTRAR CATEGORIA</a>
+                </div>
+                <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <form id="frmNuevo" autocomplete="off">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for=""><b><i class="icon-info3 mr-1"></i>NOMBRE:</b></label>
+                                <input type="text" class="form-control form-control-sm" name="nombre" id="nombre">
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="form-group">
+                                <label for=""><b><i class="icon-file-text mr-1"></i>DESCRIPCION:</b></label>
+                                <input type="text" class="form-control form-control-sm" name="descripcion" id="descripcion">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section js{
+
+    <script src="~/assets/assets/scripts/Categoria/CategoriaRegistrar.js"></script>
+    
+}

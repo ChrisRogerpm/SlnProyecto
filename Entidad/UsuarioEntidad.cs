@@ -4,7 +4,12 @@ using System.Text;
 
 namespace Entidad
 {
-    class UsuarioEntidad
+    public class UsuarioEntidad
     {
+        public int idUsuario { get; set; }
+        public string idTipoUsuario { get; set; }
+        public string email { get; set; }
+        public string password { get; set; }        
+        public int estado { get; set; }
     }
 }

@@ -1,0 +1,81 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{!! csrf_token() !!}" />
+    <title>Ecommerce</title>
+    <!-- Global stylesheets -->
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <link href="~/assets/css/compiled.css" rel="stylesheet" />
+    <link href="~/assets/assets/image/iconn.ico" rel="stylesheet" />
+    <link href="~/assets/global_assets/css/icons/fontawesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/assets/global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" />
+    <link href="~/assets/assets/css/fontstyle.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="navbar navbar-expand-md navbar-dark bg-primary-600">
+        <div class="navbar-brand">
+            <a href="#" class="d-inline-block text-white">
+                <img src="~/assets/assets/image/logo.png" alt="Alternate Text" />
+            </a>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="content-wrapper">
+            <div class="content d-flex justify-content-center align-items-center">
+
+                <div class="card mb-0 border-1 border-dark" id="container-login">
+                    <div class="card-body">
+                        <form id="frmNuevo" autocomplete="off" class="login-form">
+                            <div class="text-center mb-3">
+                                <div class="card-img-actions d-inline-block mb-3">
+                                    <img class="img-fluid rounded-circle" src="~/assets/assets/image/default.jpg" width="170" height="170" alt="" />
+                                </div>
+                                <h5 class="mb-0 text-dark">Ingrese a su cuenta</h5>
+                                <span class="d-block text-dark">Introduzca sus credenciales a continuación</span>
+                            </div>
+                            <div class="form-group form-group-feedback form-group-feedback-left">
+                                <input type="text" id="txtUsuario" name="email" class="form-control" placeholder="Email">
+                                <div class="form-control-feedback">
+                                    <i class="icon-user text-muted"></i>
+                                </div>
+                            </div>
+                            <div class="form-group form-group-feedback form-group-feedback-left">
+                                <input type="password" name="password" id="txtPassword" class="form-control"
+                                       placeholder="Contraseña">
+                                <div class="form-control-feedback">
+                                    <i class="icon-lock2 text-muted"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" id="btnSesion" class="btn bg-primary-600 btn-block">INICIAR SESIÓN <i class="icon-circle-right2 ml-2"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="navbar navbar-expand-lg navbar-light">
+                <div class="navbar-collapse collapse" id="navbar-footer">
+                    <span class="navbar-text">
+                        &copy; 2020 - <a href="javascript:void(0)" target="_blank">Jaime Tamayonsio Condoncio</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/assets/css/compiled.js"></script>
+    <script src="~/assets/assets/scripts/Autenticacion/Autenticacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@section header{ 
+
+    <div class="page-header page-header-light">
+        <div class="page-header-content header-elements-md-inline">
+            <div class="page-title d-flex">
+                <h4>
+                    <span class="font-weight-semibold"> CATEGORIA REGISTRADOS</span>
+                </h4>
+                <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+            </div>
+            <div class="header-elements d-none">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-link btn-float text-default btnRecargar">
+                        <i class="icon-reload-alt text-slate-700"></i> <span>RECARGAR</span>
+                    </button>
+                    <button type="button" class="btn btn-link btn-float text-default btnNuevo">
+                        <i class="icon-googleplus5 text-slate-700"></i><span>NUEVA</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+            <div class="d-flex">
+                <div class="breadcrumb">
+                    <a href="#" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> INICIO</a>
+                    <a href="#" class="breadcrumb-item"> CATEGORIA REGISTRADOS</a>
+                </div>
+                <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <table id="table" class="table table-bordered table-sm table-striped" style="width:100%"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section js{
+
+    <script src="~/assets/assets/scripts/Categoria/CategoriaListar.js"></script>
+    
+}
