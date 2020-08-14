@@ -817,6 +817,7 @@
     <Content Include="assets\global_assets\js\plugins\visualization\echarts\echarts.min.js" />
     <Content Include="assets\js\app.js" />
     <Content Include="assets\js\compiled.js" />
+    <Content Include="BD\project_script_bd.sql" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
